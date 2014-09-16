@@ -1,0 +1,11 @@
+v1.0
+Can check times for 5 bus stops.
+Red-Design with UTA logo. 
+
+To Add:
+Ability to add own bus stops
+More fluid design for buttons, maybe a list/scrolling
+Use a data system to hold bus info, can be personalized
+Check UTA for list of bus stops, implement that?
+Search function/map implementation
+Multiple pages, settings, etc.
