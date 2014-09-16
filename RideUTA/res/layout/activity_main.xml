@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#990000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/home213"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFB2B2"
+        android:fontFamily="sans-serif-light"
+        android:onClick="sendMessage"
+        android:padding="15dip"
+        android:text="213-Home"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/pres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFB2B2"
+        android:fontFamily="sans-serif-light"
+        android:onClick="sendMessage"
+        android:padding="15dip"
+        android:text="220-Presidents"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFB2B2"
+        android:fontFamily="sans-serif-light"
+        android:onClick="sendMessage"
+        android:padding="15dip"
+        android:text="213-WEB"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/libr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFB2B2"
+        android:fontFamily="sans-serif-light"
+        android:onClick="sendMessage"
+        android:padding="15dip"
+        android:text="213-Library"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/home220"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFB2B2"
+        android:fontFamily="sans-serif-light"
+        android:onClick="sendMessage"
+        android:padding="15dip"
+        android:text="220-Home"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Enter a new Stop ID"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Add New Stop"
+        android:onClick="addNumber" >
+    </Button>
+
+</LinearLayout>
